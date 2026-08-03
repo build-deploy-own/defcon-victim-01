@@ -1,0 +1,16 @@
+{"time":"2026-08-03T15:50:52.472Z","type":"synthetic-discovery","technique":"V9","files":["github-token.txt","npm-token.txt","aws-credentials.txt"],"valuesAreCanaries":true}
+{"time":"2026-08-03T15:50:52.498Z","type":"instruction","technique":"V13","action":"inventory"}
+{"time":"2026-08-03T15:50:52.509Z","type":"persistence-installed","technique":"V19","launcher":"c:\\Users\\User01\\Documents\\DEFCON34-LABS\\vscode\\fixtures\\victim-home\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Startup\\DEFCON-LAB-PERSISTENCE.cmd","activeInSimulatedProfile":true}
+{"time":"2026-08-03T15:50:52.519Z","type":"canary-deletion","technique":"V20","target":"c:\\Users\\User01\\Documents\\DEFCON34-LABS\\vscode\\fixtures\\victim-home\\delete-me.txt","deleted":true,"sha256":"bd5d98a6b39b82ff450e7dcc94b10b2d3526f181c4b83d4c070e29ef51b02ea7"}
+{"time":"2026-08-03T15:50:52.769Z","type":"c2-exfiltration","url":"http://127.0.0.1:43130/collect","bytes":265,"accepted":true}
+{"time":"2026-08-03T15:50:52.772Z","type":"complete","externalNetwork":false,"root":"c:\\Users\\User01\\Documents\\DEFCON34-LABS\\vscode"}
+{"time":"2026-08-03T15:53:44.888Z","type":"synthetic-discovery","technique":"V9","files":["github-token.txt","npm-token.txt","aws-credentials.txt"],"valuesAreCanaries":true}
+{"time":"2026-08-03T15:53:44.901Z","type":"instruction-rejected","technique":"V13","reason":"replay rejected"}
+{"time":"2026-08-03T15:53:44.906Z","type":"persistence-installed","technique":"V19","launcher":"c:\\Users\\User01\\Documents\\DEFCON34-LABS\\vscode\\fixtures\\victim-home\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Startup\\DEFCON-LAB-PERSISTENCE.cmd","activeInSimulatedProfile":true}
+{"time":"2026-08-03T15:53:44.907Z","type":"canary-deletion","technique":"V20","target":"c:\\Users\\User01\\Documents\\DEFCON34-LABS\\vscode\\fixtures\\victim-home\\delete-me.txt","deleted":false,"reason":"already absent"}
+{"time":"2026-08-03T15:53:44.947Z","type":"dns-exfiltration","host":"127.0.0.1","port":53535,"packets":6,"sent":true}
+{"time":"2026-08-03T15:53:44.952Z","type":"complete","externalNetwork":false,"root":"c:\\Users\\User01\\Documents\\DEFCON34-LABS\\vscode"}
+{"time":"2026-08-03T15:56:37.356Z","type":"synthetic-discovery","technique":"V9","files":["github-token.txt","npm-token.txt","aws-credentials.txt"],"valuesAreCanaries":true}
+{"time":"2026-08-03T15:56:37.404Z","type":"instruction-rejected","technique":"V13","reason":"replay rejected"}
+{"time":"2026-08-03T15:56:37.405Z","type":"persistence-installed","technique":"V19","launcher":"c:\\Users\\User01\\Documents\\DEFCON34-LABS\\vscode\\fixtures\\victim-home\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Startup\\DEFCON-LAB-PERSISTENCE.cmd","activeInSimulatedProfile":true}
+{"time":"2026-08-03T15:56:37.406Z","type":"canary-deletion","technique":"V20","target":"c:\\Users\\User01\\Documents\\DEFCON34-LABS\\vscode\\fixtures\\victim-home\\delete-me.txt","deleted":false,"reason":"already absent"}
